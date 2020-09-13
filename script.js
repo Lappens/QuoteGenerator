@@ -26,6 +26,7 @@ function complete(){
 
 async function getQuote(){
     loading()
+    //Change proxyURL with own proxy for fetching!!!
     const proxyUrl='https://immense-reaches-91771.herokuapp.com/'
     const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
     try {
